@@ -2,7 +2,8 @@
 Designed For insert Data to a SQL Database and retrieve data from the DataBase
 
 Installation
-1. Download These Files 
+
+1. Download These Files <br>
 2. Put them in to a Web Server (Local or public)
 3. Create a Database (Any name)
 4. Then Go to inc/connection.php and open it
