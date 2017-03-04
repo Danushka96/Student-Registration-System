@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>First Year Student Details of UCSC</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="blurBg-false" style="background-color:#EBEBEB">
+
+
+
+<!-- Start Formoid form-->
+<link rel="stylesheet" href="index_files/formoid1/formoid-solid-blue.css" type="text/css" />
+<script type="text/javascript" src="index_files/formoid1/jquery.min.js"></script>
+<form class="formoid-solid-blue" style="background-color:#FFFFFF;font-size:14px;font-family:'Roboto',Arial,Helvetica,sans-serif;color:#34495E;max-width:500px;min-width:150px" action="process.php" method="post"><div class="title"><h2>First Year Student Details(UCSC)</h2></div>
+	<!-- Index Number-->
+	<div class="element-input"><label class="title"><span class="required"></span></label>
+	<div class="item-cont"><input class="large" type="number" name="index" required="required" placeholder="Index Number"/><span class="icon-place"></span></div></div>
+
+	<!-- First Name and Last Name-->
+	<div class="element-name"><label class="title"><span class="required"></span></label><span class="nameFirst"><input placeholder="First Name" type="text" size="12" name="fname" required="required"/><span class="icon-place"></span></span><span class="nameLast"><input placeholder="Last Name" type="text" size="14" name="lname" required="required"/><span class="icon-place"></span></span></div>
+
+	<!-- School-->
+	<div class="element-input"><label class="title"><span class="required"></span></label><div class="item-cont"><input class="large" type="text" name="school" required="required" placeholder="School"/><span class="icon-place"></span></div></div>
+
+	<!-- Address-->
+	<div class="element-address"><label class="title"><span class="required"></span></label><span class="addr1"><input placeholder="Street Address" type="text" name="address1" required="required"/><span class="icon-place"></span></span><span class="addr2"><input placeholder="Address Line 2" type="text" name="address2" /><span class="icon-place"></span></span><span class="city"><input placeholder="City" type="text" name="city" /><span class="icon-place"></span></span><span class="state"><input placeholder="District" type="text" name="district" required="required"/><span class="icon-place"></span></span></div>
+
+	<!-- Phone Number-->
+	<div class="element-phone"><label class="title"><span class="required"></span></label><div class="item-cont"><input class="large" type="tel" pattern="[+]?[\.\s\-\(\)\*\#0-9]{3,}" maxlength="10" name="phone" required="required" placeholder="Phone" value=""/><span class="icon-place"></span></div></div>
+
+	<!-- Select Course-->
+	<div class="element-select"><label class="title"><span class="required"></span></label><div class="item-cont"><div class="large"><span><select name="course" required="required">
+
+		<option value="Computer Science">Computer Science</option>
+		<option value="Information System">Information System</option></select><i></i><span class="icon-place"></span></span></div></div></div>
+</div>
+<div class="submit"><input type="submit" value="Submit"/></div></form><script type="text/javascript" src="index_files/formoid1/formoid-solid-blue.js"></script>
+<!-- Stop form-->
+
+
+
+</body>
+</html>
